@@ -100,8 +100,6 @@ function deauth {
 # make sure sniff-handshake is running first in another tab
 # connect work iphone Network to boot off and get handshake
 
-# 50:A6:7F:55:86:93 = My Work iPhone
-
 if [ -z "$(iwconfig $INTERFACE| grep "Mode:" | grep -o "Monitor")" ]
 then
     echo "$INTERFACE - Not in Monitor Mode"
