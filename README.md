@@ -3,6 +3,8 @@ wireless
 set for functions for pentesting wifi networks
 mainly uses aircrack suite 
 
+this is still a work in progress so mileage may vary!
+
 
 Features
 --------------
